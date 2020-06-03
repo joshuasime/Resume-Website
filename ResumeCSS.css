@@ -1,0 +1,73 @@
+body {
+	
+	text-align: center;
+	background-color: 04c9fe;
+	background-image: url("backgroundresume.png");
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	
+}
+*{
+	font-family: "courier new", courier, sans-serif;
+}
+th, td {
+  border-bottom: 3px solid #006400;
+}
+.nobottomborder {
+	border: none;
+}
+.complete, .nobottomborder.complete{
+	color: green;
+	text-shadow: 2px 2px 5px green;
+}
+
+.incomplete, .nobottomborder.incomplete{
+	color: red;
+	text-shadow: 2px 2px 5px red;
+}
+
+.title {
+	color: 006400;
+}
+
+.subtitle {
+	font-size:20px;	
+}
+
+table {
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: 3px solid  #006400;
+	
+}
+
+hr {
+	height: 3px;
+	color: black;
+	background-color: #006400;
+	border: none;
+}
+
+#firstblog {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1250px;
+	padding: 25px 25px 25px 25px;
+	text-align: justify;
+}
+#computerimage {
+	margin-left: auto;
+}
+#basketballimage {
+	margin-right: auto;
+}
+.imagefirstblog{
+	height: 339px;
+}
+p {
+	text-indent: 50px;
+	border: 2px solid #006400;
+	border-radius: 5px;
+}
